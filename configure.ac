@@ -9,7 +9,7 @@ AC_PROG_CXX([g++46 g++4.6 g++-4.6 g++45 g++4.5 g++-4.5 g++44 g++4.4 g++-4.4 g++ 
 AC_LANG([C++])
 AC_LANG_CXX_0X
 AM_PATH_PYTHON([2.6])
-AC_PROG_LIBTOOL
+LT_INIT
 
 AC_PROTOBUF_CHECK([:],[AC_MSG_ERROR("Requires google protobuf library!")])
 
